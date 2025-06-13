@@ -3,42 +3,66 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Benvenuti in Andalusia</title>
+  <title>¡Bienvenidos en Andalucía! 🇪🇸</title>
   <style>
     body {
-      font-family: sans-serif;
-      background: #fffaf0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #fff3cd, #ffdf7e);
       margin: 0;
-      padding: 20px;
+      padding: 30px;
       text-align: center;
+      color: #7a3011;
     }
     h1 {
-      color: #b22222;
+      color: #c62828;
+      font-size: 2.8em;
+    }
+    p {
+      font-size: 1.3em;
+      margin-bottom: 20px;
     }
     .gallery {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 20px;
-      margin-top: 20px;
+      margin-top: 30px;
     }
     .gallery img {
-      width: 300px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 280px;
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .cheers {
+      font-size: 1.4em;
+      margin-top: 40px;
+      color: #d84315;
     }
   </style>
 </head>
 <body>
-  <h1>🌞 ¡Bienvenidos en Andalucía! 🇪🇸</h1>
-  <p>Auguri Franci e Floooo! Un piccolo contributo per rendere ancora più magici il viaggio per i vostri 30 anni!</p>
+  <h1>🎉 ¡Benvenuti in Andalusia! 🇪🇸</h1>
+  <p>Un viaggio tra <strong>sole, tapas, flamenco e brindisi!</strong></p>
+
   <div class="gallery">
-    <img src="https://i.imgur.com/FW4eJu3.jpeg" alt="Siviglia" />
-    <img src="https://i.imgur.com/L2TlkGT.jpeg" alt="Alhambra di Granada" />
-    <img src="https://i.imgur.com/NwihP9t.png" alt="Cordoba" />
-    <img src="https://i.imgur.com/g2lMq1v.png" alt="Ronda" />
-    <img src="https://i.imgur.com/ni2CGQn.png" alt="Flamenco a Siviglia" />
+    <!-- Luoghi -->
+    <img src="https://i.imgur.com/NwihP9t.jpg" alt="Siviglia" />
+    <img src="https://i.imgur.com/yLxJ6Er.jpg" alt="Alhambra" />
+    <img src="https://i.imgur.com/5cUlJML.jpg" alt="Cordoba" />
+
+    <!-- Festa -->
+    <img src="https://i.imgur.com/WSXOHof.jpg" alt="Sangria" />
+    <img src="https://i.imgur.com/NAToD5m.jpg" alt="Cerveza" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Tapas.jpg" alt="Tapas" />
+    <img src="https://i.imgur.com/fpoih34.jpg" alt="Flamenco" />
   </div>
+
+  <p class="cheers">🍻 ¡Salud ragazzi! <br> Felici 30 anni, che l'Andalusia vi regali emozioni, risate e... tanta sangria! 🍷</p>
 </body>
 </html>
+
 
