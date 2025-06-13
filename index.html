@@ -41,15 +41,26 @@
     <img src="https://i.imgur.com/8JznEbN.jpeg" alt="Siviglia" />
     <img src="https://i.imgur.com/pQlgjN3.png" alt="Alhambra" />
     <img src="https://i.imgur.com/JOrQrnS.png" alt="Cordoba" />
-    <img src="https://i.imgur.com/SSYyEWX.png" alt="Sangria" />
     <img src="https://i.imgur.com/gvsJIUA.png" alt="Cerveza" />
-    <img src="https://i.imgur.com/1sP6PgZ.png" alt="Flamenco" />
+    <img src="https://i.imgur.com/3uXcDbB.png alt="Flamenco" />
   </div>
 
   <p class="cheers">🍻 ¡Salud ragazzi! <br> Felici 30 anni, un brindisi a voi, al viaggio, alla vita, che ogni giorno sia una festa infinita! 🍷</p>
 
-  <audio autoplay loop>
-  <source src="https://www.bensound.com/bensound-music/bensound-latinlover.mp3" type="audio/mpeg">
+ <button onclick="playMusic()" style="margin-top: 40px; padding: 12px 24px; font-size: 1.2em; background-color: #ff7043; color: white; border: none; border-radius: 8px; cursor: pointer;">
+  ▶️ Play Musica Spagnola
+</button>
+
+<audio id="audio" loop>
+  <source src="https://cdn.pixabay.com/audio/2022/03/15/audio_7359db77bd.mp3" type="audio/mpeg">
+  Il tuo browser non supporta l'audio HTML5.
+</audio>
+
+<script>
+  function playMusic() {
+    document.getElementById("audio").play();
+  }
+</script>
   
 </audio>
 </body>
