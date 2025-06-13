@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>¡Bienvenidos en Andalucía! 🇪🇸</title>
   <style>
+.hero-image img {
+  width: 90%;
+  max-width: 900px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
+}
+    
     body {
       font-family: 'Segoe UI', sans-serif;
       background: linear-gradient(to bottom right, #fff3cd, #ffdf7e);
@@ -37,18 +45,22 @@
   <h1>🎉 ¡Benvenuti in Andalusia! 🇪🇸</h1>
   <p>Un viaggio tra <strong>sole, tapas, flamenco e brindisi!</strong></p>
 
+  <div class="hero-image">
+  <img src="https://i.imgur.com/WrU628k.jpeg" alt="Andalusia panorama" />
+</div>
+
   <div class="gallery">
     <img src="https://i.imgur.com/8JznEbN.jpeg" alt="Siviglia" />
     <img src="https://i.imgur.com/pQlgjN3.png" alt="Alhambra" />
     <img src="https://i.imgur.com/JOrQrnS.png" alt="Cordoba" />
-    <img src="https://i.imgur.com/gvsJIUA.png" alt="Cerveza" />
     <img src="https://i.imgur.com/3uXcDbB.png alt="Flamenco" />
+    <img src="https://i.imgur.com/gvsJIUA.png" alt="Cerveza" />
   </div>
 
-  <p class="cheers">🍻 ¡Salud ragazzi! <br> Felici 30 anni, un brindisi a voi, al viaggio, alla vita, che ogni giorno sia una festa infinita! 🍷</p>
+  <p class="cheers">🍻 ¡Salud ragazzi! <br> Felici 30 anni! Un brindisi a voi, al viaggio, alla vita, che ogni giorno sia una festa infinita! 🍷</p>
 
  <button onclick="playMusic()" style="margin-top: 40px; padding: 12px 24px; font-size: 1.2em; background-color: #ff7043; color: white; border: none; border-radius: 8px; cursor: pointer;">
-  ▶️ Play Musica Spagnola
+  ▶️ Sound on
 </button>
 
 <audio id="audio" loop>
